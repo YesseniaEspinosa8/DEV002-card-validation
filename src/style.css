@@ -1,0 +1,82 @@
+body {
+	background-color: rgb(32, 32, 31);
+	font-family: 'Lato', sans-serif;
+}
+
+	.contenedor {
+		width: 90%;
+		max-width: 100px;
+		padding: 40px 20px;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.tarjeta {
+		width: 100%;
+		max-width: 700px;
+		position: relative;
+		color: rgb(255, 255, 255);
+		cursor: pointer;
+		
+	}
+
+	.tarjeta > div {
+		padding: 50px;
+		border-radius: 15px;
+		min-height: 350px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		box-shadow: 0 10px 10px 0 rgba(250, 250, 250, 0.3);
+	}
+
+	.tarjeta .delantera {
+		width: 100%;
+		background: url(https://img.freepik.com/vector-premium/elegante-fondo-negro-diseno-diseno_13920-2177.jpg?w=740);
+		background-size: cover;
+	}
+
+	
+.delantera .logo-marca {
+	text-align: right;
+	min-height: 50px;
+}
+
+.delantera .logo-marca img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	max-width: 80px;
+}
+
+.delantera .chip {
+	width: 100%;
+	max-width: 50px;
+	margin-bottom: 20px;
+}
+delantera .grupo .label {
+	font-size: 16px;
+	color: #7d8994;
+	margin-bottom: 5px;
+}
+
+.delantera .grupo .numero,
+.delantera .grupo .nombre,
+.delantera .grupo .expiracion {
+	color: rgb(252, 247, 247);
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.delantera .flexbox {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+
+
+
+	
