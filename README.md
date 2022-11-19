@@ -19,7 +19,7 @@ La imagen final de tu proyecto:
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
   
-
+[![PROTITIPO-EN-PAPEL.jpg](https://i.postimg.cc/FHt7mbhD/PROTITIPO-EN-PAPEL.jpg)](https://postimg.cc/gnDYHZXZ)
   
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   
