@@ -1,14 +1,6 @@
-Tarjeta de credito Valida
+"Valid Card"
 
-El siguiente proyecto tiene como finalidad validar un atrjeta de credito ingresando el nombre del usuario y su numero de tarjeta en la aplicacion.
-
-
-
-
-* La imagen final de tu proyecto.
-
-
-* Investigación UX:
+El siguiente proyecto tiene como finalidad validar una trjeta de credito ingresando el nombre del usuario, numero de tarjeta, fecha de expiracion y codigo de seguridad en la aplicacion.
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
