@@ -16,10 +16,17 @@ La imagen final de tu proyecto:
     Cuando el usuario realiza una compra en linea, se abrira automaticamente la aplicacion Card Validtion, este ingresara su nombre y numero de tarjeta para validarla y realizar con exito y rapidez su compra.
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
+  
 
   
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  
+  Recibi Feedback de mis compañeras en cuanto al diseño de la letra y los botones, me sugirieron poner todas de un mismo tamaño. 
+  
+  
   5. Imagen del prototipo final.
+  
+  
 
 #### Visualmente (HTML y CSS)
 
