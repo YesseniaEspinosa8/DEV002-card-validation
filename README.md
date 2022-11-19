@@ -27,7 +27,7 @@ La imagen final de tu proyecto:
   
   
   5. Imagen del prototipo final.
-  
+  [![FINAL-PAPEL.jpg](https://i.postimg.cc/Jn9Gnjbr/FINAL-PAPEL.jpg)](https://postimg.cc/Q9JXY94w)
   
 
 #### Visualmente (HTML y CSS)
@@ -110,41 +110,6 @@ mínimo del 50% de _branches_ (ramas).
 
 ***
 
-## 6. Pistas, tips y lecturas complementarias
-
-### Primeros pasos
-
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
-   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
-   10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
-   hacia el mismo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
-8. A codear se ha dicho! :rocket:
-
-### Recursos y temas relacionados
 
 A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
 y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
