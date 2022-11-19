@@ -4,7 +4,8 @@ El siguiente proyecto tiene como finalidad validar una trjeta de credito ingresa
 
 La imagen final de tu proyecto:
 
-[![protitipo.jpg](https://i.postimg.cc/pLDbbR6m/protitipo.jpg)](https://postimg.cc/dhtSGPvF)
+
+[![PROTOTIPO-FINAL.jpg](https://i.postimg.cc/zf2kxP1x/PROTOTIPO-FINAL.jpg)](https://postimg.cc/WDrr38zZ)
 
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
