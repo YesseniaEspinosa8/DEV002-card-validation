@@ -35,9 +35,9 @@
             <img src="../img/chip-tarjeta.png" class="img2" alt="">
 
           <div class="datos">
-            <div class="grupo" id="numero">
+            <div class="datos" id="número">
               <p class="label"> Número de Tarjeta</p>
-              <p class="numero"></p>
+              <p class="número"></p>
               <div class="número de tarjeta>
                 <label for="inputNumero de Tarjeta"></label>
                 <input type="text" id="inputNúmero de Tarjeta" maxlength="16">
@@ -45,7 +45,7 @@
               </div>
 
               <div class="datos2">
-                <div class="grupo" id="nombre">
+                <div class="datos2" id="nombre">
                   <p class="label"> Nombre Titular</p>
                   <p class="nombre"></p>
                 <div class="nombre Titular">
@@ -55,39 +55,50 @@
               
               </div>
             </div>
-                </div>
-                <div class="grupo" id="Expiración">
-                  <p class="label">Expiración</p>
-                </div>
-            
-               <form action="mes">
-                <select>
-                  <option disabled selected="" >mes</option>
-                 
-                    <option>Enero</option>
-                    <option>Febrero</option>
-                    <option>Marzo</option>
-                    <option>Abril</option>
-                    <option>Mayo</option>
-                    <option>Junio</option>
-                    <option>Julio</option>
-                    <option>Agosto</option>
-                    <option>Septiembre</option>
-                    <option>Octubre</option>
-                    <option>Noviembre</option>
-                    <option>Diciembre</option>
+                  
+          
+                <div class="Expiración">
+                  <div class="Expiración" id="Expiración">
+                    <p class="label"> Expiración</p>
+                    <p class="Expiración"></p>
                     
-            <div class="CodigoSeguridad">
-              <div class="CodigoSeguridad" id="CVV">
-                <p class="label"> CVV</p>
-                <p class="CodigoSeguridad"></p>
-                <div class="CVV>
-                  <label for="inputCVV"></label>
-                  <input type="text" id="inputCVV" maxlength="3">
-                
+                    <select>
+                        <option disabled selected="">mes</option>
+                        <option>Enero</option>
+                        <option>Febrero</option>
+                        <option>Marzo</option>
+                        <option>Junio</option>
+                        <option>Julio</option>
+                        <option>Agosto</option>
+                        <option>Septiembre</option>
+                        <option>Octubre</option>
+                        <option>Novieembre</option>
+                        <option>Diciembre</option>
+                     </select>
+
+                     <select>
+                      <option disabled selected="">year</option>
+                      <option>2022</option>
+                      <option>2023</option>
+                      <option>2024</option>
+                      <option>2025</option>
+                      <option>2026</option>
+                      <option>2027</option>
+                      
+                   </select>
+
+                   <div class="CodigoSeguridad">
+                    <div class="CodigoSeguridad" id="CVV">
+                      <p class="label"> CVV</p>
+                      <p class="CodigoSeguridad"></p>
+                      
+                        <label for="inputCVV"></label>
+                        <input type="text" id="inputCVV" maxlength="3">
+                      
                 </div>
               </div>
-            
+              <br>
+              <input type="button" id="usuario" value="Enviar">
             </div>
           </div>
           </div>

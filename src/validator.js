@@ -1,21 +1,8 @@
-
-function tarjeta(numero) {
-  Number = Number.toString()
-  acumulador = ""
-  for (let i = 0; i<Number.length;i++){
-if(i<4){
-
-  acumulador = acumulador + Number  [1]
-} else {
-  acumulador = acumulador + "#"
-
-
-}
-
-
-  }
-  return acumulador
-
+const validator = {
+  // Validar el numero de tarjeta cuando el usuario lo ingrese
   
-}
-tarjeta(4152313843065579)
+};
+const elCCNúmero = document.getElementById ("ccNúmero");
+
+export default validator;
+
