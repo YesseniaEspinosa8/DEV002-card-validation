@@ -27,8 +27,7 @@ La imagen final de tu proyecto:
   
   
   5. Imagen del prototipo final.
-  [![FINAL-PAPEL.jpg](https://i.postimg.cc/Jn9Gnjbr/FINAL-PAPEL.jpg)](https://postimg.cc/Q9JXY94w)
-  
+  [![protoripo-papel-final.jpg](https://i.postimg.cc/rF1R4y19/protoripo-papel-final.jpg)](https://postimg.cc/CzKKTg6Z)
 
 #### Visualmente (HTML y CSS)
 
