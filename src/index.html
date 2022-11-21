@@ -5,22 +5,18 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-
-      .img  {
+<style>
+  .img  {
         width: 50px;
         height: 50px;
-
-      } 
-
-      .img2  {
+} 
+.img2  {
         width: 45px;
         height: 45px;
-
-      } 
+} 
       </style>
-  </head>
+ 
+</head>
   
   <body>
     
@@ -34,18 +30,17 @@
           </div>
             <img src="../img/chip-tarjeta.png" class="img2" alt="">
 
-          <div class="datos">
-            <div class="datos" id="número">
+          <div class="creditcardNumber">
+            <div class="creditcardNumber" id="creditcardNumber">
               <p class="label"> Número de Tarjeta</p>
-              <p class="número"></p>
-              <div class="número de tarjeta>
-                <label for="inputNumero de Tarjeta"></label>
+              <p class="creditcardNumber"></p>
+             <label for="inputNumero de Tarjeta"></label>
                 <input type="text" id="inputNúmero de Tarjeta" maxlength="16">
                 
-              </div>
+                 </div>
 
-              <div class="datos2">
-                <div class="datos2" id="nombre">
+              <div class="Nombre Titutal">
+                <div class="nombre titular" id="nombre">
                   <p class="label"> Nombre Titular</p>
                   <p class="nombre"></p>
                 <div class="nombre Titular">
@@ -64,26 +59,28 @@
                     
                     <select>
                         <option disabled selected="">mes</option>
-                        <option>Enero</option>
-                        <option>Febrero</option>
-                        <option>Marzo</option>
-                        <option>Junio</option>
-                        <option>Julio</option>
-                        <option>Agosto</option>
-                        <option>Septiembre</option>
-                        <option>Octubre</option>
-                        <option>Novieembre</option>
-                        <option>Diciembre</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
                      </select>
 
                      <select>
                       <option disabled selected="">year</option>
-                      <option>2022</option>
-                      <option>2023</option>
-                      <option>2024</option>
-                      <option>2025</option>
-                      <option>2026</option>
-                      <option>2027</option>
+                      <option>22</option>
+                      <option>23</option>
+                      <option>24</option>
+                      <option>25</option>
+                      <option>26</option>
+                      <option>27</option>
                       
                    </select>
 
@@ -94,11 +91,33 @@
                       
                         <label for="inputCVV"></label>
                         <input type="text" id="inputCVV" maxlength="3">
+
+                        <div class="datos5">
+                          <label for="creditcardValidator" class="form-label">Envie sus datos para validar tarjeta</label>
+                          <textarea
+                            disabled="true"
+                            class="form-control"
+                            id="ccValidator"
+      
+                            style="font-size: 25px"
+                          ></textarea>
+                        </div>
+                        
+
                       
                 </div>
               </div>
               <br>
-              <input type="button" id="usuario" value="Enviar">
+              <div class="enviar">
+                <input
+                  type="button"
+                  class="btn btn-primary"
+                  value="Enviar"
+                  onClick="checkCC()"
+                />
+              </div>
+             
+              
             </div>
           </div>
           </div>
