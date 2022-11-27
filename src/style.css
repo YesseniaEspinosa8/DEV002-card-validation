@@ -1,45 +1,43 @@
-
 body {
-	background-color: rgb(37, 37, 36);
-	font-family: 'Lato', sans-serif;
+	background-color: #393b3d;
 }
 
-	.contenedor {
-		width: 90%;
-		max-width: 100px;
-		padding: 40px 20px;
-		margin: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+.contenedor {
+	width: 90%;
+	max-width: 100px;
+	padding: 40px 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
-	.tarjeta {
-		width: 100%;
-		max-width: 700px;
-		position: relative;
-		color: rgb(255, 255, 255);
-		cursor: pointer;
-		
-	}
+.tarjeta {
+	width: 100%;
+	max-width: 700px;
+	position: relative;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
 
-	.tarjeta > div {
-		padding: 50px;
-		border-radius: 15px;
-		min-height: 350px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		box-shadow: 0 10px 10px 0 rgba(250, 250, 250, 0.3);
-	}
+}
 
-	.tarjeta .delantera {
-		width: 100%;
-		background: url(https://img.freepik.com/vector-premium/elegante-fondo-negro-diseno-diseno_13920-2177.jpg?w=740);
-		background-size: cover;
-	}
+.tarjeta>div {
+	padding: 50px;
+	border-radius: 15px;
+	min-height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 10px 10px 0 rgba(250, 250, 250, 0.3);
+}
 
-	
+.tarjeta .delantera {
+	width: 100%;
+	background: url(https://img.freepik.com/vector-premium/elegante-fondo-negro-diseno-diseno_13920-2177.jpg?w=740);
+	background-size: cover;
+}
+
+
 .delantera .logo-marca {
 	text-align: right;
 	min-height: 50px;
@@ -57,7 +55,8 @@ body {
 	max-width: 50px;
 	margin-bottom: 20px;
 }
-delantera .grupo .label {
+
+.delantera .grupo .label {
 	font-size: 16px;
 	color: #7d8994;
 	margin-bottom: 5px;
@@ -76,8 +75,3 @@ delantera .grupo .label {
 	justify-content: space-between;
 	margin-top: 20px;
 }
-
-
-
-
-	
