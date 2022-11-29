@@ -9,33 +9,32 @@ const validator = {
 
     }
 
+    //Pasar los numeros a un array en orden inverso
     const arrayNumber = tarjeta.split("");
     console.log(arrayNumber)
     const arrayReverse = arrayNumber.reverse();
-    console.log (arrayReverse)
+    console.log(arrayReverse)
 
-    //Pasar los numeros a un array en orden inverso
-
-    const digitos = [4, 5, 6, 7];
-
-    console.log(digitos); 
-    
-    digitos.reverse();
-    
-    console.log(digitos); 
-    
-
-  
     //Aplicar la operacion a los numeros de las pocisiones pares
-    const imparNumbers=["5", "8", "7", "5", "8", "8", "5", "3"];
-    for (let i = 0; i <= 8; i *= 2) {
-      imparNumbers.push(i);
- }
 
-    //Sumar los digitos y nuevos digitos
-    
-      
-    
+    for (let i = 0; i < arrayNumber; i++) {
+      let digitoActual = parseInt(tarjeta[i]);
+      if (i % 2 == 0) // tomar posiciones pares
+      {
+        if ((digitoActual *= 2) > 9) {
+          //Separar los valores de 2 digitos para despues sumarlos
+          let primerNumero = parseInt(digitoActual / 10);
+          let ultimoNumero = digitoActual % 10;
+          digitoActual = primerNumero + ultimoNumero;
+        }
+      }
+      //Sumar todos los digitos de la tarjeta que se ingresa
+      agregarDatos += digitoActual;
+    }
+
+
+
+
     //Comprobar si es una tarjeta válida
     if (sum % 10 === 0 && sum !== 0) {
       return alert('Datos ingresados correctamente. !Tarjeta válida!');
