@@ -11,15 +11,19 @@ const validator = {
 
     const arrayNumber = tarjeta.split("");
     console.log(arrayNumber)
-
-    //Preguntar por el numero de la tarjeta
-    const array1 = ["3", "7", "5", "3", "8", "7", "8", "5", "5", "6", "7", "9", "8", "7", "5", "1"];
-    console.log('array1:', array1);
+    const arrayReverse = arrayNumber.reverse();
+    console.log (arrayReverse)
 
     //Pasar los numeros a un array en orden inverso
-    const reversed = array1.reverse();
-    console.log('reversed:', reversed);
-    // resultado esperado: "reversed:" Array ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+    const digitos = [4, 5, 6, 7];
+
+    console.log(digitos); 
+    
+    digitos.reverse();
+    
+    console.log(digitos); 
+    
 
   
     //Aplicar la operacion a los numeros de las pocisiones pares
