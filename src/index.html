@@ -1,124 +1,22 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-  <meta charset="utf-8">
-  <title>Tarjeta de crédito válida</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    .img {
-      width: 50px;
-      height: 50px;
-    }
-
-    .img2 {
-      width: 45px;
-      height: 45px;
-    }
-  </style>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolex Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <div class "contenedor">
-
-    <section class="tarjeta" id="tarjeta">
-      <div class="delantera">
-        <div class="logo-marca" id="logo-marca">
-          <img src="../img/logos/visa.png" class="" alt="logovisa">
-
-        </div>
-        <img src="../img/chip-tarjeta.png" class="img2" alt="imagenchip">
-
-        <div class="creditcardNumber">
-          <div class="creditcardNumber" id="creditcardNumber">
-            <p class="label"> Número de Tarjeta</p>
-            <p class="creditcardNumber"></p>
-            <label for="inputNumero de Tarjeta"></label>
-            <input type="text" id="inputNumeroDeTarjeta" maxlength="16">
-
-          </div>
-
-
-          <div class="Nombre Titular">
-            <div class="nombre titular" id="nombre">
-              <p class="label"> Nombre Titular</p>
-              <p class="nombre"></p>
-              <div class="nombre Titular">
-                <label for="inputNombre Titular"></label>
-                <input type="text" id="inputNombre Titular" maxlength="99">
-              </div>
-
-            </div>
-          </div>
-
-
-          <div class="Expiración">
-            <div class="Expiración" id="Expiración">
-              <p class="label"> Expiración</p>
-              <p class="Expiración"></p>
-
-              <select>
-                <option disabled selected="">mes</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-                <option>05</option>
-                <option>06</option>
-                <option>07</option>
-                <option>08</option>
-                <option>09</option>
-                <option>10</option>
-                <option>11</option>
-                <option>12</option>
-              </select>
-
-              <select>
-                <option disabled selected="">año</option>
-                <option>22</option>
-                <option>23</option>
-                <option>24</option>
-                <option>25</option>
-                <option>26</option>
-                <option>27</option>
-
-              </select>
-
-              <div class="CodigoSeguridad">
-                <div class="CodigoSeguridad" id="CVV">
-                  <p class="label"> CVV</p>
-                  <p class="CodigoSeguridad"></p>
-
-                  <label for="inputCVV"></label>
-                  <input type="text" id="inputCVV" maxlength="3">
-
-
-                </div>
-              </div>
-              <br>
-              <div class="enviar">
-                <button type="button" class="btn" id="btnEnviar"> Enviar </button>
-
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-
-  </div>
-
-
-  <header></header>
-  <main></main>
-  <footer></footer>
-
-  <script src="index.js" type="module"></script>
+    <h1>R O L E X</h1> 
+    <img src="../img/corona-rolex.png" alt="logo rolex">
+    <p class="letra">Premium Shop</p>
+    <br>
+    <p>Favor de ingresar su numero de socio</p>
+  
+    <input type="text" id="username" placeholder="Ingresa tu numero de socio" class="input">
+  
+    <button onclick="location.href='formulario.html'">Ingresar</button>
+    
 </body>
-
 </html>

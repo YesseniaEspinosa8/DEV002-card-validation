@@ -38,12 +38,13 @@ const validator = {
 
   },
 
-
-  maskify: (creditNumber) => { }
-
+  maskify: (creditNumber) => {
+    return cc.replace(/.(?=.{4})/g, "#");
+    
+  }
 
 }
-export default validator
+export default validator;
 
 
 
