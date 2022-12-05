@@ -1,6 +1,6 @@
 const validator = {
   isValid: (creditNumber) => {
-    const length = creditNumber.length; //longitud del string 
+    const length = creditNumber.length; 
     let agregarDigitos = 0;
 
     //Pasar los numeros a un array en orden inverso

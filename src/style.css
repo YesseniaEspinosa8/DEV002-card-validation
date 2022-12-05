@@ -1,10 +1,13 @@
 body{
 	
 	background: #575555c9;
-	font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: rgb(255, 255, 255);
+	background-image: url(https://wallpaperaccess.com/full/851961.jpg);
+	padding: 40px 20px;
 	
 }
+
 
 .contenedor {
 	width: 100%;
