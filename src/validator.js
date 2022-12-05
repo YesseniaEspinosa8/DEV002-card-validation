@@ -1,6 +1,6 @@
 const validator = {
   isValid: (creditNumber) => {
-    const length = creditNumber.length; 
+    const length = creditNumber.length;
     let agregarDigitos = 0;
 
     //Pasar los numeros a un array en orden inverso
@@ -36,16 +36,18 @@ const validator = {
     return total
 
 
+
   },
 
   maskify: (creditNumber) => {
     return cc.replace(/.(?=.{4})/g, "#");
-    
+
   }
 
 }
-export default validator;
 
+export default validator;
+const resultado = window.confirm("Ingreso exitoso. Ya puedes pagar tu producto");
 
 
 
