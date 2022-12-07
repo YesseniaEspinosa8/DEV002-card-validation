@@ -9,10 +9,8 @@ El siguiente proyecto tiene como finalidad validar una trjeta de credito ingresa
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
-
-  E  proyectotes
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
+ Para este proyecto los usuarios seran todas aquellas personas mayores de 35 años que prefieren hacer compras en linea, especificamente en productos premium como relojes de alta gama.  E  proyectotes2. Explicar cómo el producto soluciona los problemas/necesidades de dichos    usuarios
+  
 
     Cuando el usuario realiza una compra en linea, se abrira automaticamente la aplicacion Card Validtion, este ingresara su nombre y numero de tarjeta para validarla y realizar con exito y rapidez su compra.
 
