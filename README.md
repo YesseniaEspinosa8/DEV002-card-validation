@@ -10,8 +10,7 @@ El siguiente proyecto tiene como finalidad validar una trjeta de credito ingresa
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
-    Para este proyecto los usuarios seran todas aquellas personas mayores de 18 años que prefieren hacer compras en linea, especificamente en productos de equipo de computo.
-
+  E  proyectotes
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
 
